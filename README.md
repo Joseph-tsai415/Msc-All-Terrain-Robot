@@ -1,9 +1,9 @@
 # Msc-All-Terrain-Robot
-
+This project is to desgin decision making layer for a all-terrain robot.
 
 
 # What is this?
-
+In embedded computer vision field, a guidance system for all-terrain robot is very crucial. This project aims to design a computer vision based guidance system with the opensource software and hardware. The purpose for this guidance system is to satisfy the teaching requirements used in the ELEC2209 course at Southampton University. The developed guidance system has the advantageous features of low-cost and robustness under different environments. The guidance system is designed as the upper layer compute unit in the robot system. The expected three outputs from the guidance system are: The GPIO controller pin output, UART Serial communication I/O and the wireless access point interface. To validate the guidance system design, several experiments are conducted under various lighting conditions.
 This is a Python code collection of robotics algorithms, especially for autonomous navigation.
 
 Features:
@@ -16,7 +16,7 @@ Features:
 
 See this paper for more details:
 
-- [\[1808\.10703\] PythonRobotics: a Python code collection of robotics algorithms](https://arxiv.org/abs/1808.10703) ([BibTeX](https://github.com/AtsushiSakai/PythonRoboticsPaper/blob/master/python_robotics.bib))
+
 
 
 # Requirements
@@ -27,11 +27,13 @@ See this paper for more details:
 
 - scipy
 
-- matplotlib
+- picamera
 
-- pandas
+- RPi.GPIO
 
-- [cvxpy](https://www.cvxpy.org/index.html) 
+- Opencv 4.4
+
+- Pyserial
 
 # Documentation
 
