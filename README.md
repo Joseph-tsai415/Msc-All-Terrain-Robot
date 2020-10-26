@@ -38,27 +38,21 @@ See this paper for more details:
 # Documentation
 
 This README only shows some examples of this project. 
-
-If you are interested in other examples or mathematical backgrounds of each algorithm, 
-
-You can check the full documentation online: [https://pythonrobotics.readthedocs.io/](https://pythonrobotics.readthedocs.io/)
-
-All animation gifs are stored here: [AtsushiSakai/PythonRoboticsGifs: Animation gifs of PythonRobotics](https://github.com/AtsushiSakai/PythonRoboticsGifs)
+full Detial can see Dissertaion. 
 
 # How to use
 
 1. Clone this repo.
 
-> git clone https://github.com/AtsushiSakai/PythonRobotics.git
+> git clone https://github.com/Joseph-tsai415/Msc-All-Terrain-Robot.git
 
 
-2. Install the required libraries. You can use environment.yml with conda command.
+2. Install the required libraries.
 
-> conda env create -f environment.yml
 > using pip :-
          pip install -r requirements.txt
 
 
-3. Execute python script in each directory.
+3. Execute python Main.py script in each directory.
 
 4. Add star to this repo if you like it :smiley:. 
