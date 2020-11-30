@@ -62,3 +62,34 @@ full Detial can see Dissertaion.
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+
+'''
+Usefull tips:
+    1. Update the QT designer GUI for pyqt      **.Ui -> **.py cmd : pyuic5 -x test2.ui -o test2.py
+    2. Update the QT designer GUI for pyside    **.Ui -> **.py cmd : pyside2-uic test2.ui > test2_pyside.py
+    3. Get USB info from powershell cmd: wmic path CIM_LogicalDevice where "Description like 'USB%'" get /value
+    4. Event & bot application example: http://zetcode.com/gui/pyqt5/eventssignals/
+Crurrent stage feature (*Need to Add/ #Problem Solve):
+
+    0. Mian window: 
+        #//Display issue: Expand plociy optimize//      Commit: 4fa7967
+        *//Auto detect: Add USB plugin/out to auto connect to device func//
+        *//Func: Bug concern in Dedup func in Serial_com.py need to optimize//
+        *//Display issue: Adjust Different display resolution//
+        *//Display issue: Display connected device info on somewhere//
+
+    1. Terminal Tab feature:
+        #//Func: Auto record PC apllication log and save on \\logs folder auto roll// commit: be77bed
+
+    2. MCU firmware Tab:
+        *//Func: Select Target board upload Func//
+
+    3. SD Card Tab funtion: 
+        *//Func: Upload to target && Download from target//
+        *//Func: Get Crruent Log//
+
+    4. Camera Debug Tab:
+        *//Func: Get Full Image//
+        *//Func: Get wells Image//
+        *//Func: Wells Image Data//
+'''       
