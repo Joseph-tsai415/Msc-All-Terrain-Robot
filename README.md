@@ -51,8 +51,14 @@ full Detial can see Dissertaion.
 
 > using pip :-
          pip install -r requirements.txt
-
+         
 
 3. Execute python Main.py script in each directory.
 
 4. Add star to this repo if you like it :smiley:. 
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
